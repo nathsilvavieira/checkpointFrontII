@@ -1,0 +1,53 @@
+* { /* usando seletor universar para resetar as configurações padroes do navegador*/
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0; 
+    background-color: #261C2C; /* estilizando cor de fundo*/
+    font-family: 'Roboto', sans-serif; /* inserindo fonte padrão*/
+    color: white; /*cor da fonte padrão */
+  }
+  
+  div.card{ /* estilizando div da classe card*/
+    padding: 20px; /*distanciamento do conteudo entre os elementos da div.card*/
+    display: flex; /*organizando conteudos de forma flexivel*/
+    flex-direction: column; /* informando que conteudo deve ficar em colunas*/
+    justify-content: center; /*centralizando conteudo*/
+    flex-wrap: wrap; /*informando a quebra de itens dentro da div*/
+  }
+  
+  div.card div{ /* estilizando as divs dentro da div.card*/
+    margin: 0 auto; /* ajusatando margem na vertical e na horizontal*/
+  }
+  h1 {/*estilização da tag h1*/
+    display: flex; /*organizando conteudos de forma flexivel*/
+    justify-content: center; /*centralizando conteudo*/
+    padding: 5px; /*distanciamento do conteudo entre os elementos */
+
+  }
+  input{ /* estilizando tag input*/
+    padding: 5px; /*distanciamento do conteudo entre os elementos */
+    display: block; /*renderizando os elementos como bloco*/
+    width: 17.86rem; /* ajustando largura das tegs e responsividade para elementos se ajustarem conforme tamanho do navegador*/
+    margin: 0.71rem auto; /*ajustando margem na horizontal e na vertical de acordo com tamanho do navegador*/
+    font-weight: bolder; /*aplicando peso na fonte para que ela fique mais grossa/escura*/
+    border-radius: 20px; /*aplicando arredondamento no estilo dos inputs*/
+  }
+  button{
+    padding: 14px 28px; /*distanciamento do conteudo entre os elementos na vertical e horizontal*/
+    display: block;/*renderizando o elemento como bloco*/
+    width: 17.86rem; /* ajustando largura do botao e responsividade pro elemento se ajustar conforme tamanho do navegador*/
+    margin: 0.71rem auto; /*ajustando margem na horizontal e na vertical de acordo com tamanho do navegador*/
+    border: none; /*retirando configuração de borda padrão do botao*/
+    background-color: #5C527F; /*definindo cor do botao*/
+    border-radius: 20px; /*aplicando arredondamento no estilo no botao*/
+    font-size: 1.14rem; /*definindo tamanho da fonte*/
+    cursor: pointer; /*cursor customizado, mãozinha*/
+    text-align: center; /*alinhamento texto no centro*/
+  }
+
+  button:hover{ /*adicionando uma animação simples no botao quando cursor passar sobre ele*/
+    background-color: white; /*muda da cor do botaolilas para branca*/
+    color:#5C527F; /*muda letra de branca para lilas*/
+    width: 15.86rem; /* diminuindo tamanho do botao*/
+    transition: width 0.10ms ease-in-out; /*ajustando transição dos elementos (tamanho, tempo, tipo de transição)*/
+  }
