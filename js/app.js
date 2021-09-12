@@ -5,7 +5,7 @@ document.body.innerHTML += "<input class='input1' id='title' (type=text, placeho
 
 document.body.innerHTML += "<input class='input2' id='description' (type=text, placeholder='Insert Description')></input>";
 
-document.body.innerHTML += "<input class='input3' id='url1' (type=text, placeholder='Place your URL')></input>";
+document.body.innerHTML += "<input class='input3' id='url1' (type=text, placeholder='Place your video URL')></input>";
 
 document.body.innerHTML += "<button class='button1' onclick='fecthing()' id='btn'>Submit</button>";
 
